@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 3px;
+  padding-left: 3px; }
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif; }
+
+p {
+  font-family: 'Playfair Display', serif; }
+
+#left-header {
+  background-color: #CA6967;
+  text-transform: uppercase;
+  color: white;
+  text-align: center; }
+  #left-header h1 {
+    font-size: 66px; }
+  #left-header .lead {
+    margin-top: -15px; }
+
+#right-header {
+  background-color: #3B3D49;
+  color: white; }
+
+#about-header, #skills-header, #portfolio-header, #contact-header {
+  background-color: #3B3D49;
+  margin-top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  letter-spacing: .5px;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+  #about-header h2, #skills-header h2, #portfolio-header h2, #contact-header h2 {
+    font-size: 30px; }
+
+#about-body, #skills-body, #portfolio-body, #contact-body {
+  background-color: #E8E9D7;
+  margin-top: -8px;
+  margin-bottom: -12px;
+  min-height: 500px; }
+
+#about-body {
+  text-align: center; }
+
+#skills h5 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: -.5px; }
+
+#skills .progress-bar {
+  background-color: #CA6967; }
+
+#skills .skill-bar {
+  margin-bottom: 4px; }
