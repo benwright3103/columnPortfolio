@@ -50,6 +50,19 @@ p{
 #right-header{
   background-color: $black;
   color: white;
+  a{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+  }
+  li{
+    display: inline-block;
+    text-align: center;
+    padding-top: 10%;
+
+  }
 
 }
 
@@ -111,6 +124,13 @@ p{
 
 }
 #portfolio-body{
+  .card{
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 3px;
+    background-color: $gray;
+    border: none;
+  }
 
 }
 

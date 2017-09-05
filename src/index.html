@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Bootstrap 4 Starter Pack</title>
+        <title>One Page Column Portfolio</title>
     </head>
 
     <body>
@@ -18,7 +18,14 @@
               <p class="lead">Elegant Master Thief</p>
             </div> <!--end left header-->
             <div id="right-header" class="col-sm-6">
-              <h3>About</h3>
+              <nav>
+                <ul>
+                  <li><a href="#about">About |</a></li>
+                  <li><a href="#skills">Skills |</a></li>
+                  <li><a href="#portfolio">Portfolio |</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
             </div> <!--end right header-->
           </div> <!--end row-->
         </div> <!--end container-fluid-->
@@ -67,14 +74,21 @@
               </div> <!-- end portfolio header-->
               <div id="portfolio-body">
                 <p>This is the portfolio section.</p>
+                <div class="card" >
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-block">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div> <!-- end card-->
               </div> <!-- end portfolio body-->
             </div><!-- end portfolio-->
 
                   <!--Contact Section-->
             <div id="contact" class="col-sm-3">
               <div id="contact-header">
-                <h2>Contact <i class="fa fa-plug" aria-hidden="true"></i>
-</h2>
+                <h2>Contact <i class="fa fa-envelope" aria-hidden="true"></i></h2>
               </div> <!--end contact header-->
               <div id="contact-body">
                 <p>This is the contact section</p>

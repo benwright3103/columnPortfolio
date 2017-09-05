@@ -35,6 +35,16 @@ p {
 #right-header {
   background-color: #3B3D49;
   color: white; }
+  #right-header a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em; }
+  #right-header li {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10%; }
 
 #about-header, #skills-header, #portfolio-header, #contact-header {
   background-color: #3B3D49;
@@ -66,3 +76,10 @@ p {
 
 #skills .skill-bar {
   margin-bottom: 4px; }
+
+#portfolio-body .card {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 3px;
+  background-color: #BBBEB3;
+  border: none; }
