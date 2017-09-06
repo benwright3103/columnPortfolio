@@ -20,10 +20,17 @@ h1, h2 {
   font-family: 'Raleway', sans-serif; }
 
 p {
+  font-family: 'Playfair Display', serif;
+  color: #3B3D49; }
+
+.btn-danger {
+  background: #2EC4B6;
+  border: none;
+  margin-top: 1px;
   font-family: 'Playfair Display', serif; }
 
 #left-header {
-  background-color: #CA6967;
+  background-color: #2EC4B6;
   text-transform: uppercase;
   color: white;
   text-align: center; }
@@ -65,16 +72,17 @@ p {
   min-height: 500px; }
 
 #about-body {
-  text-align: left;
+  text-align: center;
   padding-left: 5px;
   padding-right: 5px; }
 
 #skills h5 {
   font-family: 'Playfair Display', serif;
-  margin-bottom: -.5px; }
+  margin-bottom: -.5px;
+  color: #3B3D49; }
 
 #skills .progress-bar {
-  background-color: #CA6967; }
+  background-color: #2EC4B6; }
 
 #skills .skill-bar {
   margin-bottom: 4px;
@@ -85,3 +93,11 @@ p {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px; }
+
+#contact-body li {
+  display: inline-block; }
+
+#contact-body a {
+  font-size: 30px;
+  color: #3B3D49;
+  text-align: center; }

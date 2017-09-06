@@ -1,6 +1,6 @@
 // Main Sass File
 //colors
-$orange: #CA6967;
+$orange: #2EC4B6;
 $black: #3B3D49 ;
 $tan: #E8E9D7;
 $gray: #BBBEB3;
@@ -31,6 +31,13 @@ h1, h2{
 
 }
 p{
+  font-family: 'Playfair Display', serif;
+  color: $black;
+}
+.btn-danger{
+  background: $orange;
+  border: none;
+  margin-top: 1px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -95,7 +102,7 @@ p{
 
 }
 #about-body{
-  text-align: left;
+  text-align: center;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -105,6 +112,7 @@ p{
   h5{
     font-family: 'Playfair Display', serif;
     margin-bottom: -.5px;
+    color: $black;
 
   }
   .progress-bar{
@@ -143,5 +151,13 @@ p{
 
 }
 #contact-body{
+  li{
+    display: inline-block;
+  }
+  a{
+    font-size: 30px;
+    color: $black;
+    text-align: center;
+  }
 
 }
