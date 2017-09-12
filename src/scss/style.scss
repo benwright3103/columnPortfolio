@@ -57,17 +57,18 @@ p{
 #right-header{
   background-color: $black;
   color: white;
+  text-align: center;
   a{
     color:white;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
   }
   li{
     display: inline-block;
     text-align: center;
-    padding-top: 10%;
+    margin-top: 20px;
 
   }
 
@@ -93,7 +94,7 @@ p{
   background-color: $tan;
   margin-top: -8px;
   margin-bottom: -12px;
-  min-height: 500px;
+  min-height: 700px;
 
 }
 
@@ -151,13 +152,18 @@ p{
 
 }
 #contact-body{
+
   li{
     display: inline-block;
   }
   a{
-    font-size: 30px;
+    font-size: 35px;
     color: $black;
-    text-align: center;
+    padding-left: 8px;
+    margin-top: 8px;
   }
 
+}
+#contact-icons{
+  text-align: center;
 }

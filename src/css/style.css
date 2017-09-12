@@ -41,17 +41,18 @@ p {
 
 #right-header {
   background-color: #3B3D49;
-  color: white; }
+  color: white;
+  text-align: center; }
   #right-header a {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1em; }
+    font-size: 2em; }
   #right-header li {
     display: inline-block;
     text-align: center;
-    padding-top: 10%; }
+    margin-top: 20px; }
 
 #about-header, #skills-header, #portfolio-header, #contact-header {
   background-color: #3B3D49;
@@ -69,7 +70,7 @@ p {
   background-color: #E8E9D7;
   margin-top: -8px;
   margin-bottom: -12px;
-  min-height: 500px; }
+  min-height: 700px; }
 
 #about-body {
   text-align: center;
@@ -98,6 +99,10 @@ p {
   display: inline-block; }
 
 #contact-body a {
-  font-size: 30px;
+  font-size: 35px;
   color: #3B3D49;
+  padding-left: 8px;
+  margin-top: 8px; }
+
+#contact-icons {
   text-align: center; }
